@@ -35,3 +35,5 @@ def test_quantidade_negativa():
 ])
 def test_valores_limites(qtd, esperado):
     assert classificar_produto(qtd) == esperado
+
+#aaaa
