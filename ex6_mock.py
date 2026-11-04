@@ -55,3 +55,5 @@ def test_registrar_atendimento_nao_chamada_fila_vazia(mock_obter, mock_registrar
     mock_obter.return_value = None
     atender_proximo_cliente()
     mock_registrar.assert_not_called()
+
+    #aaa
